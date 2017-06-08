@@ -2,8 +2,8 @@ package endpoints
 
 import (
 	"context"
-
 	"github.com/notque/persister/pkg/service"
+	"github.com/go-kit/kit/endpoint"
 )
 
 // Endpoints collects all of the endpoints that compose an add service. It's
